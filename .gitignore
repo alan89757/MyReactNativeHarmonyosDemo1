@@ -11,3 +11,4 @@
 **/.test
 /.appanalyzer
 /libs
+/entry/src/main/resources/rawfile/

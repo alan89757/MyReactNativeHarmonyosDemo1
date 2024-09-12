@@ -55,7 +55,7 @@ struct Index {
             arkTsComponentNames: []
           },
           initialProps: { "foo": "bar" } as Record<string, string>,
-          appKey: "AwesomeProject",
+          appKey: "ReactNativeHarmonyosDemo1",
           wrappedCustomRNComponentBuilder: wrappedCustomRNComponentBuilder,
           onSetUp: (rnInstance) => {
             rnInstance.enableFeatureFlag("ENABLE_RN_INSTANCE_CLEAN_UP")
