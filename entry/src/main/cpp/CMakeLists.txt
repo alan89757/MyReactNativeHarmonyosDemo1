@@ -12,6 +12,7 @@ add_compile_definitions(WITH_HITRACE_SYSTRACE)
 set(WITH_HITRACE_SYSTRACE 1) # for other CMakeLists.txt files to use
 
 add_subdirectory("${RNOH_CPP_DIR}" ./rn)
+add_subdirectory("${OH_MODULES}/@react-native-oh-tpl/async-storage/src/main/cpp" ./async-storage)
 
 add_library(rnoh_app SHARED
     "./PackageProvider.cpp"
@@ -19,3 +20,4 @@ add_library(rnoh_app SHARED
 )
 
 target_link_libraries(rnoh_app PUBLIC rnoh)
+target_link_libraries(rnoh_app PUBLIC rnoh_async_storage)

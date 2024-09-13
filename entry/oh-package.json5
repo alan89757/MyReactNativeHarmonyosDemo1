@@ -7,6 +7,7 @@
   "main": "",
   "version": "1.0.0",
   "dependencies": {
-    "@rnoh/react-native-openharmony": "file:../libs/react_native_openharmony-5.0.0.500.har"
+    "@rnoh/react-native-openharmony": "file:../libs/react_native_openharmony-5.0.0.500.har",
+    "@react-native-oh-tpl/async-storage": "file:../libs/async_storage.har"
   }
 }
